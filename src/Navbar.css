@@ -1,0 +1,14 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 30px;  
+  color: black;
+  text-transform: uppercase;
+  outline: none;
+}
