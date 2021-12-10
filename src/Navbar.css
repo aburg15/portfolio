@@ -7,12 +7,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;  
+  margin-left: 30px;
+  margin-bottom: 50px;  
   color: black;
   text-transform: uppercase;
   font-size:x-large;
+  display: inline-block;
+  position: relative;
 }
 
-.navbar-item:hover {
-  
+.navbar-item:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 3px;
+  bottom: 0;
+  left: 0;
+  background-color: orange;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.navbar-item:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }

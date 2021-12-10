@@ -14,11 +14,11 @@ const Home = () => {
         <p>A Front-End Developer passionate about creating interactive applications and experiences on the web.</p>
         <div className='icons'>
           <a href={Resume} rel="noreferrer" target="_blank" className="resume-link">Resumé</a>
-          <a href="https://github.com/aburg15" className="logo" target="_blank">
+          <a href="https://github.com/aburg15" className="logo" target="_blank" rel="noreferrer">
             <FaGithub />
           </a>
-          <a href="https://www.linkedin.com/in/burgess-adam/" className="logo"  target="_blank">
-            <FaLinkedin />
+          <a href="https://www.linkedin.com/in/burgess-adam/" className="logo"  target="_blank" rel="noreferrer">
+             <FaLinkedin />
           </a> 
         </div>
       </div>
