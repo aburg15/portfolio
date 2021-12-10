@@ -1,10 +1,11 @@
 * {
   font-family: 'Space Mono', monospace;
+  text-decoration: none;
 }
 
 html, main {
   height: 100vh;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 
