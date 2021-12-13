@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <section className='home'>
       <img src={headshot} alt='Adam headshot' className='headshot-img'/>
-      <div className="about-me">
+      <div className="intro">
         <p>HI THERE, I'M</p>
         <h1>ADAM BURGESS</h1>
         <p>A Front-End Developer passionate about creating interactive applications and experiences on the web.</p>
@@ -23,8 +23,6 @@ const Home = () => {
         </div>
       </div>
     </section>
-
-
   )
 }
 

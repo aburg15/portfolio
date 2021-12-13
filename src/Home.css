@@ -1,17 +1,18 @@
 .home {
   display: flex;
   align-items: center;
+  margin-top: 2%;
 }
 
 .headshot-img {
   width: 25%;
-  height: 10%;
+  height: 100%;
   border-radius: 50%;
   box-shadow: 12px 0 #c74c17, 24px 0 #f48a49, 36px 0 #fab871fc;
   margin-left: 15%;
 }
 
-.about-me {
+.intro {
   margin-left: 15%;
   margin-right: 10%;
 }
