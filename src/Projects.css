@@ -1,0 +1,28 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-header {
+  border-bottom: 5px solid orange;
+}
+
+.project-img {
+  height: 350px;
+  width: 500px;
+  border-radius: 1%;
+}
+
+.project-one {
+  display: flex;
+  flex-direction: row;
+  padding: 10%;
+}
+
+.project-one-text {
+  display: flex;
+  flex-direction: column;
+  padding-left: 10%;
+}
