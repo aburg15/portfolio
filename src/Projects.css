@@ -1,7 +1,7 @@
 .projects {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -12,17 +12,51 @@
 .project-img {
   height: 350px;
   width: 500px;
-  border-radius: 1%;
+  border-radius: 2%;
 }
 
 .project-one {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
   padding: 5% 10% 10% 10%;
 }
 
 .project-one-text {
   display: flex;
+  position: relative;
   flex-direction: column;
   padding-left: 10%;
+}
+
+.project-title {
+  margin: 0px;
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+}
+
+.dividor {
+  margin: 0px 5px 0px 5px;
+}
+
+.live-site {
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  color: black;
+  font-size: larger;
+}
+
+.live-site:hover {
+  border-bottom: 2px solid orange;
+  width: max-content;
+}
+
+@media screen and (max-width: 1000px) {
+  .project-one {
+    flex-direction: column;
+  }
 }
