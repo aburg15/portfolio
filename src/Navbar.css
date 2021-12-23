@@ -1,7 +1,9 @@
 .navbar {
   display: flex;
   flex-direction: row;
-  margin-right: 5%;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .navbar-item,
