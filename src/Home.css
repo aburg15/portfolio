@@ -138,6 +138,19 @@ input:checked + .slider:before {
     flex-direction: column;
     text-align: center;
   }
+
+  .headshot-img {
+    width: 200px;
+  }
+
+  .intro {
+    width: 70%;
+  }
+
+  .toggle {
+    align-items: center;
+    width: 100;
+  }
 }
 
 
