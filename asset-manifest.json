@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.23a92e37.chunk.css",
-    "main.js": "/portfolio/static/js/main.334ab3f2.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.334ab3f2.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.5cb81b9f.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.5cb81b9f.js.map",
-    "static/js/2.4b15a421.chunk.js": "/portfolio/static/js/2.4b15a421.chunk.js",
-    "static/js/2.4b15a421.chunk.js.map": "/portfolio/static/js/2.4b15a421.chunk.js.map",
-    "static/js/3.cd90eec5.chunk.js": "/portfolio/static/js/3.cd90eec5.chunk.js",
-    "static/js/3.cd90eec5.chunk.js.map": "/portfolio/static/js/3.cd90eec5.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.23a92e37.chunk.css.map": "/portfolio/static/css/main.23a92e37.chunk.css.map",
-    "static/js/2.4b15a421.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4b15a421.chunk.js.LICENSE.txt",
-    "static/media/img.62f45d91.jpg": "/portfolio/static/media/img.62f45d91.jpg",
-    "static/media/resume.1bb496fe.pdf": "/portfolio/static/media/resume.1bb496fe.pdf",
-    "static/media/rt.8eb6950c.png": "/portfolio/static/media/rt.8eb6950c.png"
+    "main.css": "/static/css/main.23a92e37.chunk.css",
+    "main.js": "/static/js/main.334ab3f2.chunk.js",
+    "main.js.map": "/static/js/main.334ab3f2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.70deeb12.js",
+    "runtime-main.js.map": "/static/js/runtime-main.70deeb12.js.map",
+    "static/js/2.79468ab8.chunk.js": "/static/js/2.79468ab8.chunk.js",
+    "static/js/2.79468ab8.chunk.js.map": "/static/js/2.79468ab8.chunk.js.map",
+    "static/js/3.cd90eec5.chunk.js": "/static/js/3.cd90eec5.chunk.js",
+    "static/js/3.cd90eec5.chunk.js.map": "/static/js/3.cd90eec5.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.23a92e37.chunk.css.map": "/static/css/main.23a92e37.chunk.css.map",
+    "static/js/2.79468ab8.chunk.js.LICENSE.txt": "/static/js/2.79468ab8.chunk.js.LICENSE.txt",
+    "static/media/img.62f45d91.jpg": "/static/media/img.62f45d91.jpg",
+    "static/media/resume.1bb496fe.pdf": "/static/media/resume.1bb496fe.pdf",
+    "static/media/rt.8eb6950c.png": "/static/media/rt.8eb6950c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.5cb81b9f.js",
-    "static/js/2.4b15a421.chunk.js",
+    "static/js/runtime-main.70deeb12.js",
+    "static/js/2.79468ab8.chunk.js",
     "static/css/main.23a92e37.chunk.css",
     "static/js/main.334ab3f2.chunk.js"
   ]
