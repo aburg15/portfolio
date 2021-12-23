@@ -1,24 +1,46 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom'
 import Header from './Header'
-import React from 'react'
+import React, { useState } from 'react'
+import styled, { ThemeProvider } from "styled-components"
+import { lightTheme, darkTheme, GlobalStyles } from './themes';
 import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Projects from './Projects'
 
-function App() {
-  return (
-    <main>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />}/>
-        <Route path="/about" element={<About />}/>
-        <Route path="/contact" element={<Contact />}/>
-        <Route path="/projects" element={<Projects />}/>
-      </Routes>
-    </main>
+export const StyledApp = styled.div`
+  color: ${(props) => props.theme.fontColor}
+`;
 
+function App() {
+  const [theme, setTheme] = useState("light");
+
+  const themeToggler = () => {
+    theme === "light" ? setTheme("dark") : setTheme("light")
+  }
+
+  return (
+    <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
+      <GlobalStyles />
+      <main>
+        <StyledApp>
+          <Header theme={theme}/>
+          <Routes>
+            <Route path="/" element={<Home theme={theme} themeToggler={themeToggler}/>}/>
+            <Route path="/about" element={<About />}/>
+            <Route path="/contact" element={<Contact />}/>
+            <Route path="/projects" element={<Projects />}/>
+          </Routes>
+          {/* <div className='toggle'>
+            <label className="switch">
+              <input type="checkbox" onChange={() => themeToggler()} />
+              <span className="slider round"> </span>
+            </label>
+          </div> */}
+        </StyledApp>
+      </main>
+    </ThemeProvider>
   );
 }
 

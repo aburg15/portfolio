@@ -4,7 +4,8 @@
   margin-right: 5%;
 }
 
-.navbar-item {
+.navbar-item,
+.navbar-item-dark {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -15,6 +16,10 @@
   font-size:x-large;
   display: inline-block;
   position: relative;
+}
+
+.navbar-item-dark {
+  color: white;
 }
 
 .navbar-item:after {
@@ -34,3 +39,4 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+

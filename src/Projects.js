@@ -11,7 +11,7 @@ const Projects = () => {
           <div className="project-one-text">
             <h2>RANCID TOMATILLOS </h2>
             <div className="project-links">
-              <a href="https://jkiernan12.github.io/rancid-tomatillo/#/539885" className="live-site" target="_blank" rel="noreferrer">LIVE SITE      </a>
+              <a href="https://jkiernan12.github.io/rancid-tomatillo" className="live-site" target="_blank" rel="noreferrer">LIVE SITE      </a>
               <p className="dividor">|</p>
               <a href="https://github.com/aburg15/rancid-tomatillo" className="live-site" target="_blank" rel="noreferrer"> GITHUB</a>
             </div>
