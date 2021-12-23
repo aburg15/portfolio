@@ -1,0 +1,14 @@
+.about-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-me-header {
+  border-bottom: 5px solid orange;
+}
+
+.about-me-text {
+  width: 60%;
+}
