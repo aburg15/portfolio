@@ -69,4 +69,10 @@
   .project-one {
     flex-direction: column;
   }
+
+  .project-img {
+  height: 250px;
+  width: 300px;
+  border-radius: 2%;
+}
 }
