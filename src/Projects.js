@@ -11,9 +11,9 @@ const Projects = ( {theme} ) => {
           <div className="project-one-text">
             <h2>RANCID TOMATILLOS </h2>
             <div className="project-links">
-              <a href="https://jkiernan12.github.io/rancid-tomatillo" className="live-site" target="_blank" rel="noreferrer">LIVE SITE      </a>
+              <a href="https://jkiernan12.github.io/rancid-tomatillo" className={theme === 'light' ? 'live-site' : 'live-site-dark'} target="_blank" rel="noreferrer">LIVE SITE</a>
               <p className="dividor">|</p>
-              <a href="https://github.com/aburg15/rancid-tomatillo" className="live-site" target="_blank" rel="noreferrer"> GITHUB</a>
+              <a href="https://github.com/aburg15/rancid-tomatillo" className={theme === 'light' ? 'live-site' : 'live-site-dark'} target="_blank" rel="noreferrer"> GITHUB</a>
             </div>
             <p>Are you tired of all those 【ｍａｉｎｓｔｒｅａｍ】movie databases? Probably not. Regardless, we present Rancid Tomatillos, a UI for exploring movie posters, details and trailers.
               <br/>

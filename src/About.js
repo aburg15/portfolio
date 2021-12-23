@@ -18,9 +18,6 @@ const About = () => {
         Backend: REST APIs<br/>
         Testing: Cypress | Mocha | Chai<br/>
         Other: Git | GitHub | Functional/OOP | Accessibility
-        <br/>
-        <br/>
-        Please reach out to me via LinkedIn or email me (aburg1515@gmail.com) if you're interested in working together or would like to learn more!
       </p>
     </div>
 

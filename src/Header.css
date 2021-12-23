@@ -5,6 +5,7 @@
   flex-direction: column;
   height: 10%;
   align-items: flex-end;
+  padding-right: 5%;
 }
 
 @media screen and (max-width: 1000px) {
