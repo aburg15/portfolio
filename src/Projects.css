@@ -9,10 +9,15 @@
   border-bottom: 5px solid orange;
 }
 
-.project-img {
+.project-img,
+.project-img-dark {
   height: 350px;
   width: 500px;
   border-radius: 2%;
+}
+
+.project-img-dark {
+  border: 1px solid white;
 }
 
 .project-one {

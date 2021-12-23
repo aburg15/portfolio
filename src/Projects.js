@@ -2,12 +2,12 @@ import React from "react";
 import RTimg from '../src/assets/rt.png'
 import './Projects.css'
 
-const Projects = () => {
+const Projects = ( {theme} ) => {
   return (
     <div className="projects">
       <h1 className="projects-header">PROJECTS</h1>
         <div className="project-one">
-          <img className="project-img" alt="RT project" src={RTimg}/>
+          <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="RT project" src={RTimg}/>
           <div className="project-one-text">
             <h2>RANCID TOMATILLOS </h2>
             <div className="project-links">

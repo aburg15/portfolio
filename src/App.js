@@ -30,7 +30,7 @@ function App() {
             <Route path="/" element={<Home theme={theme} themeToggler={themeToggler}/>}/>
             <Route path="/about" element={<About />}/>
             <Route path="/contact" element={<Contact />}/>
-            <Route path="/projects" element={<Projects />}/>
+            <Route path="/projects" element={<Projects theme={theme} />}/>
           </Routes>
           {/* <div className='toggle'>
             <label className="switch">

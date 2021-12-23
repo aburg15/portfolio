@@ -29,7 +29,7 @@ const Home = ( {theme, themeToggler} ) => {
             <input type="checkbox" onChange={() => themeToggler()} />
             <span className="slider round"> </span>
           </label>
-      </div>
+        </div>
     </div>
   )
 }
