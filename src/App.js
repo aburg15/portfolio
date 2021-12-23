@@ -32,12 +32,6 @@ function App() {
             <Route path="/contact" element={<Contact />}/>
             <Route path="/projects" element={<Projects theme={theme} />}/>
           </Routes>
-          {/* <div className='toggle'>
-            <label className="switch">
-              <input type="checkbox" onChange={() => themeToggler()} />
-              <span className="slider round"> </span>
-            </label>
-          </div> */}
         </StyledApp>
       </main>
     </ThemeProvider>
