@@ -1,7 +1,7 @@
 import React from "react";
-import RTgif from '../src/assets/rt.gif'
-import TTgif from '../src/assets/ttgif.gif'
-import FLgif from '../src/assets/FL.gif'
+import RTimg from '../src/assets/rt.png'
+import TTimg from '../src/assets/tt.png'
+import FLimg from '../src/assets/FL.png'
 import './Projects.css'
 
 const Projects = ( {theme} ) => {
@@ -9,7 +9,7 @@ const Projects = ( {theme} ) => {
     <div className="projects">
       <h1 className="projects-header">PROJECTS</h1>
         <div className="project-one">
-          <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="RT project" src={RTgif}/>
+          <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="RT project" src={RTimg}/>
           <section className="project-one-text">
             <h2>RANCID TOMATILLOS </h2>
             <div className="project-links">
@@ -28,7 +28,7 @@ const Projects = ( {theme} ) => {
           </section>
         </div>
         <div className="project-one">
-          <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="TT project" src={TTgif}/>
+          <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="TT project" src={TTimg}/>
           <section className="project-one-text">
             <h2>TRAVEL TRACKER</h2>
             <div className="project-links">
@@ -42,7 +42,7 @@ const Projects = ( {theme} ) => {
           </section>
         </div>
         <div className="project-one">
-          <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="TT project" src={FLgif}/>
+          <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="TT project" src={FLimg}/>
           <section className="project-one-text">
             <h2>FIT-LIT</h2>
             <div className="project-links">
