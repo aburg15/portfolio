@@ -27,7 +27,7 @@ const Home = ( {theme, themeToggler} ) => {
       <div className='toggle'>
           <label className="switch">
             <input type="checkbox" onChange={() => themeToggler()} />
-            <span className="slider round"> </span>
+            <span className="slider round"></span>
           </label>
         </div>
     </div>

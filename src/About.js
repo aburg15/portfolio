@@ -14,10 +14,10 @@ const About = () => {
         Below is a list of skills I bring to a team:
         <br/>
         <br/>
-        Frontend: React | JavaScript | Sass | CSS | HTML<br/>
-        Backend: REST APIs<br/>
-        Testing: Cypress | Mocha | Chai<br/>
-        Other: Git | GitHub | Functional/OOP | Accessibility
+        <strong>Frontend:</strong> React | JavaScript | Sass | CSS | HTML<br/>
+        <strong>Backend:</strong> REST APIs<br/>
+        <strong>Testing:</strong> Cypress | Mocha | Chai<br/>
+        <strong>Other:</strong> Git | GitHub | Functional/OOP | Accessibility
       </p>
     </div>
 

@@ -21,3 +21,13 @@
   height: 100px;
   width: 20%;
 }
+
+@media screen and (max-width: 1000px) {
+  .contact-me-text {
+    width: 80%;
+  }
+
+  .contact-icons {
+    justify-content: space-between;
+  }
+}
