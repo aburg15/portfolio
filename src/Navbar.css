@@ -22,6 +22,8 @@
 
 .navbar-item-dark {
   color: white;
+  margin: 5px;
+  font-size: medium;
 }
 
 .navbar-item:after {
