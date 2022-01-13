@@ -22,8 +22,6 @@
 
 .navbar-item-dark {
   color: white;
-  margin: 5px;
-  font-size: medium;
 }
 
 .navbar-item:after {
@@ -50,6 +48,10 @@
     flex-wrap: nowrap;
   }
   .navbar-item {
+    margin: 5px;
+    font-size: medium;
+  }
+  .navbar-item-dark {
     margin: 5px;
     font-size: medium;
   }

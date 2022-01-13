@@ -2,12 +2,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 2%;
   width: 100%;
 }
 
 .headshot-img {
-  width: 400px;
+  width: 350px;
   border-radius: 50%;
   box-shadow: 12px 0 #c74c17, 24px 0 #f48a49, 36px 0 #fab871fc;
 }
@@ -151,6 +150,7 @@ input:checked + .slider:before {
   }
 
   .headshot-img {
+    margin-top: 2%;
     width: 200px;
   }
 
