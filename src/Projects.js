@@ -2,12 +2,32 @@ import React from "react";
 import RTimg from '../src/assets/rt.png'
 import TTimg from '../src/assets/tt.png'
 import FLimg from '../src/assets/FL.png'
+import GNimg from '../src/assets/gn.png'
 import './Projects.css'
 
 const Projects = ( {theme} ) => {
   return (
     <div className="projects">
       <h1 className="projects-header">PROJECTS</h1>
+      <div className="project-one">
+          <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="GN project" src={GNimg}/>
+          <section className="project-one-text">
+            <h2>Gamenight </h2>
+            <div className="project-links">
+              <a href="https://ccollums.github.io/gamenight/" className={theme === 'light' ? 'live-site' : 'live-site-dark'} target="_blank" rel="noreferrer">LIVE SITE</a>
+              <p className="dividor">|</p>
+              <a href="https://github.com/ccollums/gamenight" className={theme === 'light' ? 'live-site' : 'live-site-dark'} target="_blank" rel="noreferrer"> GITHUB</a>
+            </div>
+            <p>Gamenight was born out of a love for, well, game nights. We were motivated by a shared desire for a simple interface that keeps track of the competition, friendly or not, among friends across multiple game nights. Part time capsule, part scoreboard, gamenight is for anyone who enjoys getting together with loved ones to battle it out for bragging rights.
+              <br/>
+              <br/>
+              Gamenight was completed as part of Turing School of Software & Designs’ intensive Front-End Engineering program. The goal was to envision and build a complex React web app from scratch while self-teaching a new concept, global state management using React's Context API, in the span of one week.
+              <br/>
+              <br/>
+              <strong>Tech:</strong> React, Context API, JavaScript, Cypress, CSS, HTML5, RESTful API
+            </p>
+          </section>
+        </div>
         <div className="project-one">
           <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="RT project" src={RTimg}/>
           <section className="project-one-text">
