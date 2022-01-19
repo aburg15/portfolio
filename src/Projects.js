@@ -3,13 +3,14 @@ import RTimg from '../src/assets/rt.png'
 import TTimg from '../src/assets/tt.png'
 import FLimg from '../src/assets/FL.png'
 import GNimg from '../src/assets/gn.png'
+import MWimg from '../src/assets/main-page.png'
 import './Projects.css'
 
 const Projects = ( {theme} ) => {
   return (
     <div className="projects">
       <h1 className="projects-header">PROJECTS</h1>
-      <div className="project-one">
+        <div className="project-one">
           <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="GN project" src={GNimg}/>
           <section className="project-one-text">
             <h2>Gamenight </h2>
@@ -25,6 +26,25 @@ const Projects = ( {theme} ) => {
               <br/>
               <br/>
               <strong>Tech:</strong> React, Context API, JavaScript, Cypress, CSS, HTML5, RESTful API
+            </p>
+          </section>
+        </div>
+        <div className="project-one">
+          <img className={theme === 'light' ? 'project-img' : 'project-img-dark'} alt="MW project" src={MWimg}/>
+          <section className="project-one-text">
+            <h2>Market Watch </h2>
+            <div className="project-links">
+              <a href="https://aburg15.github.io/market-watch/" className={theme === 'light' ? 'live-site' : 'live-site-dark'} target="_blank" rel="noreferrer">LIVE SITE</a>
+              <p className="dividor">|</p>
+              <a href="https://github.com/aburg15/market-watch" className={theme === 'light' ? 'live-site' : 'live-site-dark'} target="_blank" rel="noreferrer"> GITHUB</a>
+            </div>
+            <p>Market Watch was created to provide users with a quick, intuitive and informative dashboard which displays up to date cryptocurrency stock information. Users have the ability to click on each cryptocurrency listed in order to learn more information behind the currency that was selected.
+              <br/>
+              <br/>
+              This project was crafted as part of the curriculum for Turing School of Software and Design. You can view the project spec here.
+              <br/>
+              <br/>
+              <strong>Tech:</strong> React, JavaScript, Cypress, CSS, HTML5, RESTful API
             </p>
           </section>
         </div>

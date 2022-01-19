@@ -14,7 +14,7 @@ const About = () => {
         Below is a list of skills I bring to a team:
         <br/>
         <br/>
-        <strong>Frontend:</strong> React | JavaScript | Sass | CSS | HTML<br/>
+        <strong>Frontend:</strong> React | JavaScript | Context API | Sass | CSS | HTML<br/>
         <strong>Backend:</strong> REST APIs<br/>
         <strong>Testing:</strong> Cypress | Mocha | Chai<br/>
         <strong>Other:</strong> Git | GitHub | Functional/OOP | Accessibility
