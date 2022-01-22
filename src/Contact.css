@@ -22,6 +22,10 @@
   width: 20%;
 }
 
+h4 {
+  margin-bottom: 0px;
+}
+
 @media screen and (max-width: 1000px) {
   .contact-me-text {
     width: 80%;

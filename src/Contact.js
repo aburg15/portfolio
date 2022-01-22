@@ -11,6 +11,7 @@ const Contact = () => {
         <br/>
         <br/>
       <h4>aburg1515@gmail.com</h4>
+      <h4>(636) 288-4860</h4>
       <div className="contact-icons">
         <a href="https://github.com/aburg15" className="logo" target="_blank" rel="noreferrer">
           <FaGithub />
